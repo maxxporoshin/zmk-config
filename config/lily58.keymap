@@ -40,11 +40,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE            &kp K_PLAY_PAUSE                     &trans            &trans                 &trans             &trans         &trans     &trans
-&trans                &trans                &kp GRAVE          &kp LESS_THAN     &kp LEFT_BRACE        &kp MINUS                            &kp UNDER         &kp RIGHT_BRACE        &kp GREATER_THAN   &kp PLUS       &kp F11    &trans
-&trans                &kp EXCL              &kp QUESTION       &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES                    &kp SINGLE_QUOTE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp EQUAL      &kp COLON  &kp PIPE
-&trans                &trans                &kp AT             &kp HASH          &kp DOLLAR            &kp PERCENT        &trans    &trans  &kp CARET         &kp AMPERSAND          &kp ASTERISK       &kp BACKSLASH  &trans     &trans
-                                                               &trans            &trans                &trans             &trans    &trans  &trans            &trans                 &trans
+&kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE            &kp K_PLAY_PAUSE                    &trans     &trans                 &trans             &trans             &trans         &trans
+&trans                &trans                &kp TILDE          &kp LESS_THAN     &kp LEFT_BRACE        &kp MINUS                           &kp PLUS   &kp RIGHT_BRACE        &kp GREATER_THAN   &kp SINGLE_QUOTE   &trans         &trans
+&kp GLOBE             &kp EXCL              &kp QUESTION       &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp UNDERSCORE                      &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES  &kp COLON      &kp PIPE
+&trans                &trans                &kp AT             &kp HASH          &kp DOLLAR            &kp PERCENT       &trans    &trans  &kp CARET  &kp AMPERSAND          &kp ASTERISK       &kp GRAVE          &kp BACKSLASH  &trans
+                                                               &trans            &trans                &trans            &trans    &trans  &trans     &trans                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
