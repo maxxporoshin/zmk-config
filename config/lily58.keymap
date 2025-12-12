@@ -40,11 +40,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp C_BRIGHTNESS_INC  &trans  &trans                &trans                 &trans           &trans                         &trans     &trans             &trans            &trans             &trans         &kp C_VOLUME_UP
-&kp C_BRIGHTNESS_DEC  &none   &kp AT                &kp HASH               &kp DOLLAR       &kp PERCENT                    &kp CARET  &kp AMPERSAND      &kp ASTERISK      &kp GRAVE          &kp PIPE       &kp C_VOLUME_DOWN
-&trans                &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp APOSTROPHE   &kp MINUS                      &kp EQUAL  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON      &kp C_PLAY_PAUSE
-&trans                &none   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION  &kp UNDER    &trans    &trans  &kp PLUS   &kp QUESTION       &kp LESS_THAN     &kp GREATER_THAN   &kp BACKSLASH  &none
-                                                    &trans                 &trans           &trans       &trans    &trans  &trans     &kp LA(BACKSPACE)  &kp LA(DELETE)
+&kp C_BRIGHTNESS_INC  &trans     &trans                &trans                 &trans           &trans                         &trans     &trans             &trans            &trans             &trans         &kp C_VOLUME_UP
+&kp C_BRIGHTNESS_DEC  &kp TILDE  &kp AT                &kp HASH               &kp DOLLAR       &kp PERCENT                    &kp CARET  &kp AMPERSAND      &kp ASTERISK      &kp GRAVE          &kp PIPE       &kp C_VOLUME_DOWN
+&trans                &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp APOSTROPHE   &kp MINUS                      &kp EQUAL  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON      &kp C_PLAY_PAUSE
+&trans                &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION  &kp UNDER    &trans    &trans  &kp PLUS   &kp QUESTION       &kp LESS_THAN     &kp GREATER_THAN   &kp BACKSLASH  &none
+                                                       &trans                 &trans           &trans       &trans    &trans  &trans     &kp LA(BACKSPACE)  &kp LA(DELETE)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
