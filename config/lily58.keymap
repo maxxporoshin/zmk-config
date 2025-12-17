@@ -40,10 +40,10 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans     &trans                &trans                 &trans          &trans                               &trans           &trans             &trans            &trans             &trans         &trans
-&trans  &none      &kp AT                &kp HASH               &kp DOLLAR      &kp PERCENT                          &kp CARET        &kp AMPERSAND      &kp ASTERISK      &kp GRAVE          &kp PIPE       &trans
-&trans  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp SINGLE_QUOTE                     &kp EXCLAMATION  &kp EQUAL          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON      &trans
-&trans  &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE  &kp DOUBLE_QUOTES  &trans    &trans  &kp QUESTION     &kp PLUS           &kp LESS_THAN     &kp GREATER_THAN   &kp BACKSLASH  &trans
+&trans  &trans     &trans                &trans                 &trans          &trans                               &trans           &trans             &trans          &trans            &trans         &trans
+&trans  &none      &kp AT                &kp HASH               &kp DOLLAR      &kp PERCENT                          &kp CARET        &kp AMPERSAND      &kp ASTERISK    &kp GRAVE         &kp PIPE       &trans
+&trans  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp SINGLE_QUOTE                     &kp EXCLAMATION  &kp EQUAL          &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp COLON      &trans
+&trans  &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE  &kp DOUBLE_QUOTES  &trans    &trans  &kp QUESTION     &kp PLUS           &kp LESS_THAN   &kp GREATER_THAN  &kp BACKSLASH  &trans
                                          &trans                 &trans          &trans             &trans    &trans  &trans           &kp LA(BACKSPACE)  &kp LA(DELETE)
             >;
 
